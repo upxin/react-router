@@ -15,7 +15,6 @@ class Route extends Component {
           if (pathname === path) {
             return <Component/>
           }
-          return <div>404</div>
         }}
       </Consumer>
     )
